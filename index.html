@@ -6,9 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- FONT AWESOME -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- GOOGLE FONT -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Concert+One&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;900&display=swap"
+        rel="stylesheet">
 
     <!-- BOOTSTRAP -->
 
@@ -31,11 +41,11 @@
 
 <body>
     <header class="py-5 bg-secondary border-bottom">
-        <h1 class="d-flex justify-content-center">PASSWORD GENERATOR</h1>
+        <h1 class="d-flex justify-content-center fw-bold text-white">PASSWORD GENERATOR</h1>
     </header>
-    <main class="py-5 bg-success">
+    <main class="py-5">
 
-        <div class="row d-flex flex-column gap-5">
+        <div class="row d-flex flex-column gap-5 text-white">
 
             <div class="col-4 offset-4 bg-secondary bg-opacity-75 d-flex justify-content-between">
                 <span>NOME</span><span id="nomegen"></span>
@@ -49,13 +59,15 @@
                 <span>COLORE</span><span id="coloregen"></span>
             </div>
 
-            <div class="col-4 offset-4 bg-secondary bg-opacity-75 d-flex justify-content-between">
+            <div class="col-4 offset-4 bg-secondary bg-opacity-75 d-flex justify-content-between mb-5">
                 <span>ETA'</span><span id="agegen"></span>
             </div>
 
         </div>
         <div class="d-flex justify-content-center">
-            <h1 class="py-5 my-5" id="genpass">aaaaaaaasdsdf</h1>
+            <button class="btn btn-outline-light">
+                <h1 class="" id="genpass"></h1>
+            </button>
         </div>
     </main>
     <footer>
