@@ -1,13 +1,14 @@
-h1 {
-}
-
 body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(../img/JPG/05.jpg);
   font-family: "Concert One", cursive;
   font-family: "Kanit", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 
 main {
-  height: 100vh;
-  background-image: url(../img/JPG/05.jpg);
+  /* height: 100vh;
+  overflow: hidden;
+  background-image: url(../img/JPG/05.jpg); */
 }
